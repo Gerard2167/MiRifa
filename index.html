@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raffle App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Raffle Application</h1>
+    <div id="admin-section">
+        <h2>Create Raffle</h2>
+        <form id="raffle-form">
+            <input type="text" id="raffle-name" placeholder="Raffle Name">
+            <input type="file" id="raffle-prizes">
+            <button type="submit">Create Raffle</button>
+        </form>
+    </div>
+    <div id="user-section">
+        <h2>Select Numbers</h2>
+        <div id="number-grid"></div>
+        <div id="selected-numbers"></div>
+        <form id="user-form">
+            <input type="text" id="user-name" placeholder="Name">
+            <input type="email" id="user-email" placeholder="Email">
+            <input type="tel" id="user-phone" placeholder="Phone">
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
